@@ -5,14 +5,14 @@ let img = document.querySelector(".img__container");
 let ratingText = document.createElement("span");
 let ratingValue;
 
-// Function to remove active Start
+// Function to remove active State
 function removeActiveState() {
   ratingElements.forEach((element) => {
     element.classList.remove("active");
   });
 }
 
-// ForEach-Method to listen and and active state + call removeActiveState function
+// ForEach-Method to listen and active state + call removeActiveState function
 ratingElements.forEach((element) => {
   element.addEventListener("click", function () {
     removeActiveState();
