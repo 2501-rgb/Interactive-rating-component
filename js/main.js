@@ -3,7 +3,7 @@ let ratingElements = document.querySelectorAll(".rating__item");
 let submitBtn = document.querySelector(".card__submitBtn");
 let img = document.querySelector(".img__container");
 let ratingText = document.createElement("span");
-let ratingValue;
+let ratingValue = 0;
 
 // Function to remove active State
 function removeActiveState() {
